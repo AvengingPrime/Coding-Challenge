@@ -21,7 +21,8 @@ Given the following dataset in `ClusterPlot.csv`, determine the number of cluste
 
 Regardless if you can or cannot answer the question, provide a short explanation of how you got your solution or how you think it can be solved in your README.md file.
 
-	So I had not used any clustering algorithms before this project. First I tried to think about how a clustering algorithm might work. My first idea was to go through the points and try to find points that could be considered centre's
+	So I had not used any clustering algorithms before this project. First I tried to think about how a clustering algorithm might work. My first idea was to go through
+the points and try to find points that could be considered centre's
 of cluster. This would have been done by iteratively going through the points and finding points that maximized cluster density by having a maximum number of points in a given range. I thought the range could be set to a particular
 multiple of the standard deviation between the points, so as to not hard code it. 
 	Then I decided to actually look up examples of cluster algorithms. The first one I found was K-Means. This algorithm was similar to the concept I had come up with except it had a predetermined number of clusters. Since the problem 
